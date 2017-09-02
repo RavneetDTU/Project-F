@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context="com.yhase.yhase.Activities.CartActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="101dp"
+        android:layout_gravity="center"
+        android:id="@+id/iv_cart_userimage"
+        android:src="@drawable/user"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ravneet Punia"
+        android:textSize="21dp"
+        android:id="@+id/tv_cart_name"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Account Balance ___________"
+        android:textSize="21dp"
+        android:id="@+id/tv_cart_accountBalance"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add"
+            android:id="@+id/iv_addmoney"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_cart">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
