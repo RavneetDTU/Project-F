@@ -19,7 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.CartActivity"></activity>
+        <activity android:name=".Activities.CartActivity" />
+        <activity android:name=".Activities.UploadDesigns" />
+        <activity android:name=".Activities.Men" />
+        <activity android:name=".Activities.Women" />
+        <activity android:name=".Activities.Sports" />
+        <activity android:name=".Activities.ContactUs"></activity>
     </application>
 
 </manifest>

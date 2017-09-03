@@ -8,25 +8,22 @@
         <item
             android:id="@+id/nav_uploadDesign"
             android:title="Upload Design" />
-        <item
-            android:id="@+id/nav_newOffers"
-            android:title="New Offers" />
+
         <item
             android:id="@+id/nav_men"
-            android:icon="@drawable/ic_menu_manage"
             android:title="Men" />
         <item
             android:id="@+id/nav_women"
-            android:icon="@drawable/ic_menu_manage"
             android:title="Women" />
         <item
-            android:id="@+id/nav_kids"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Kids Wear" />
-        <item
             android:id="@+id/nav_sports"
-            android:icon="@drawable/ic_menu_manage"
             android:title="Sports Wear" />
+        <item
+            android:id="@+id/nav_bulkorders"
+            android:title="Bulk Orders" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Log-Out" />
     </group>
 
 </menu>

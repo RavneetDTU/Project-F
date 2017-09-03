@@ -20,7 +20,7 @@ import java.util.HashMap;
  * Created by ravneet on 2/9/17.
  */
 
-public class Men extends AppCompatActivity {
+public class Sports extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -28,7 +28,6 @@ public class Men extends AppCompatActivity {
         setContentView(R.layout.commonfile);
 
         TextView common = (TextView) findViewById(R.id.tv_commonText);
-        common.setText("Men Wear");
+        common.setText("Sports Wear");
     }
-
 }
