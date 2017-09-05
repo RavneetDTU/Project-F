@@ -8,18 +8,31 @@
     android:layout_height="match_parent"
     tools:context="com.yhase.yhase.Activities.CartActivity">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
     <ImageView
         android:layout_width="100dp"
-        android:layout_height="101dp"
+        android:layout_height="79dp"
         android:layout_gravity="center"
         android:id="@+id/iv_cart_userimage"
         android:src="@drawable/user"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/edit"
+            android:id="@+id/iv_cart_edit"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ravneet Punia"
-        android:textSize="21dp"
+        android:textSize="19dp"
         android:id="@+id/tv_cart_name"/>
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,12 +43,12 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Account Balance ___________"
-        android:textSize="21dp"
+        android:textSize="19dp"
         android:id="@+id/tv_cart_accountBalance"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:src="@drawable/add"
             android:id="@+id/iv_addmoney"/>
     </LinearLayout>

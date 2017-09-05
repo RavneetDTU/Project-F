@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="ADD Money"
+        android:icon="@drawable/add"
+        android:id="@+id/menu_addmoney"/>
+    <item
+        android:title="Transfer"
+        android:icon="@drawable/basket"
+        android:id="@+id/menu_transfer"/>
+    <item
+        android:title="Profile"
+        android:icon="@drawable/profile"
+        android:id="@+id/menu_profile"/>
+    <item
+        android:title="Cart"
+        android:icon="@drawable/basket"
+        android:id="@+id/menu_Cart"/>
+
+    <item
+        android:title="Log-Out"
+        android:icon="@drawable/add"
+        android:id="@+id/menu_logout"/>
+
+</menu>

@@ -13,7 +13,7 @@ import com.yhase.yhase.R;
 
 public class CartActivity extends AppCompatActivity {
 
-    ImageView userpic,addmoney;
+    ImageView userpic,addmoney,edit;
     public static final int PICK_IMAGE = 101;
 
     @Override
@@ -23,8 +23,9 @@ public class CartActivity extends AppCompatActivity {
 
         userpic = (ImageView) findViewById(R.id.iv_cart_userimage);
         addmoney = (ImageView) findViewById(R.id.iv_addmoney);
+        edit = (ImageView) findViewById(R.id.iv_cart_edit);
 
-        userpic.setOnClickListener(new View.OnClickListener() {
+        edit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent();
